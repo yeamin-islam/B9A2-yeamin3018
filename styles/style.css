@@ -1,16 +1,18 @@
-@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mulish:wght@400;700;800&display=swap");
 
 * {
   font-family: "Mulish", sans-serif;
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
 }
-body {
+
+/* Footer Section Style */
+footer {
   background-color: rgba(19, 19, 24, 0.05);
-  width: 1440px;
+  width: 100%;
+  padding: 110px 284px;
   margin: 0 auto;
-  border: 2px solid salmon;
-  min-height: 500px;
 }
 .page-title {
   color: #131318;
@@ -21,10 +23,39 @@ body {
 .orange {
   color: #ff5400;
 }
-
 .logo-text {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 16px;
+}
+
+.description {
+  width: 760px;
+  color: #5a5a5d;
+  text-align: center;
+  margin: 15px auto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.social {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 50px;
+}
+.fa-brands {
+  font-size: 24px;
+}
+hr {
+  border: 1px solid rgba(105, 105, 105, 0.171);
+  width: 872px;
+  margin: 50px auto;
+}
+.footer-line {
+  color: #131318;
+  font-family: Inter;
+  text-align: center;
+  margin-bottom: 30px;
 }

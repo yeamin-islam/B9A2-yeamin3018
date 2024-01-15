@@ -1,0 +1,15 @@
+@media screen and (max-width: 600px) {
+  footer {
+    background-color: rgba(19, 19, 24, 0.05);
+    width: 100%;
+    padding: 20px 20px;
+    margin: 0px auto;
+  }
+}
+.description {
+  width: 80%;
+}
+hr {
+  border: 1px solid rgba(105, 105, 105, 0.171);
+  width: 100%;
+}
