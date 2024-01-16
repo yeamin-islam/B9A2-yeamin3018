@@ -98,7 +98,7 @@ nav ul {
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
-  padding: -15% 15%;
+  padding: 5% 20%;
 }
 .dropdown-container {
   display: flex;
@@ -217,6 +217,39 @@ select {
   transform: translate(-50%, -50%);
 }
 /* Choose Your Destination Section ends here */
+/* Why choose us section starts here */
+.first-cards-row {
+  display: flex;
+  gap: 24px;
+}
+.seconed-row {
+  margin: 24px auto;
+}
+.sub-title {
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+  margin: 32px auto;
+}
+.card {
+  padding: 32px;
+  border-radius: 16px;
+  width: 50%;
+}
+.one {
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+}
+.two {
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+}
+.three {
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  background: rgba(233, 68, 68, 0.05);
+}
+
+/* Why choose us section ends here */
 
 /* Footer Section Style starts here */
 footer {

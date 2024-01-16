@@ -49,7 +49,7 @@
     justify-content: space-between;
     flex-direction: column;
     gap: 16px;
-    margin: 40px;
+    margin: 0px 40px;
   }
   .banner-title {
     color: #fff;
@@ -61,7 +61,8 @@
     text-align: center;
     font-size: 14px;
     font-weight: 400;
-    line-height: 21px; /* 150% */
+    line-height: 21px;
+    padding: 10px;
   }
   /* Banner Section ends here */
 
@@ -91,6 +92,19 @@
   }
   /* Choose Your Destination Section ends here */
 
+  /* Why Choose us Section ends here */
+  .title-description-container {
+    padding: 0px;
+    margin: 0px;
+  }
+  .first-cards-row {
+    flex-direction: column;
+  }
+  .card {
+    width: 100%;
+  }
+  /* Why Choose us Section ends here */
+
   /* Footer style section starts here */
   footer {
     background-color: rgba(19, 19, 24, 0.05);
@@ -100,7 +114,7 @@
   }
 }
 .description {
-  width: 90%;
+  width: 100%;
 }
 hr {
   border: 1px solid rgba(105, 105, 105, 0.171);
