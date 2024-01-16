@@ -1,4 +1,15 @@
 @media screen and (max-width: 600px) {
+  main {
+    max-width: 90%;
+    margin: 50px auto;
+  }
+
+  body {
+    width: 100%;
+    border: 2px solid black;
+    margin: auto;
+  }
+
   /* Navigation Section starts here */
   .menu {
     flex-direction: column;
@@ -26,6 +37,33 @@
     right: 0;
   }
   /* Navigation Section ends here */
+
+  /* Banner Section ends here */
+  .banner-container {
+    width: 90%;
+    height: 100%;
+  }
+  .dropdown-container {
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 16px;
+    margin: 40px;
+  }
+  .banner-title {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 800;
+  }
+  .banner-description {
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px; /* 150% */
+  }
+
+  /* Banner Section ends here */
 
   /* Footer style section starts here */
   footer {
