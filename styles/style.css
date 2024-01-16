@@ -179,7 +179,6 @@ select {
 }
 .title {
   color: #131318;
-  text-align: center;
   font-size: 40px;
   font-weight: 800;
 }
@@ -259,6 +258,51 @@ select {
 }
 /* Why choose us section ends here */
 
+/* A Simple Perfect Place To Get Lost Section starts Here */
+.perfect-place-container {
+  width: 100%;
+  margin-top: 100px;
+}
+.perfect-place-container,
+.perfect-left {
+  display: flex;
+}
+.perfect-left {
+  flex-direction: column;
+  width: 50%;
+  padding-right: 7px;
+}
+.video-container {
+  width: 50%;
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.perfect-title {
+  color: #131318;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 60px;
+  width: 448px;
+}
+.bold-description {
+  color: #131318;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  padding-right: 10%;
+  text-align: justify;
+}
+/* A Simple Perfect Place To Get Lost Section ends Here */
+
 /* Travel Bug Blog Section starts Here */
 .our-travel-blog {
   margin-top: 100px;
@@ -267,14 +311,15 @@ select {
   width: 300px;
   padding: 20px;
   text-align: center;
+  margin: 0px auto;
   box-shadow: 10px 5px 5px rgba(63, 63, 63, 0.281);
 }
-/* Travel Bug Blog Section ends Here */
 .blog-card-container {
   display: flex;
   justify-content: center;
   gap: 40px;
 }
+/* Travel Bug Blog Section ends Here */
 /* Newsletter Section Style starts here */
 .newsletter-container {
   display: flex;
