@@ -105,6 +105,30 @@
   }
   /* Why Choose us Section ends here */
 
+  /* Newsletter section starts here */
+  .newsletter-container {
+    flex-direction: column;
+  }
+  .newsletter {
+    width: 100%;
+  }
+  .img-newsletter {
+    width: 100%;
+  }
+  .discount {
+    width: 215px;
+    height: 80px;
+    padding: 15px;
+    top: 95%;
+  }
+  .discount-txt {
+    font-size: 21.138px;
+  }
+  .discount-sub-txt {
+    font-size: 15.854px;
+  }
+  /* Newsletter section ends here */
+
   /* Footer style section starts here */
   footer {
     background-color: rgba(19, 19, 24, 0.05);

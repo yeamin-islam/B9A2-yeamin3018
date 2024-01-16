@@ -102,7 +102,7 @@ nav ul {
 }
 .dropdown-container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   padding: 16px;
   margin: 50px;
@@ -140,7 +140,16 @@ header .btn-primary {
 fa-magnifying-glass {
   position: absolute;
 }
-input,
+.banner-container input {
+  height: 52px;
+  border-radius: 8px;
+  color: rgba(19, 19, 24, 0.5);
+  font-size: 16px;
+  font-weight: 400;
+  border-style: none;
+  margin: 0;
+  padding: 0px;
+}
 select {
   height: 52px;
   border-radius: 8px;
@@ -248,8 +257,73 @@ select {
   border: 1px solid rgba(233, 68, 68, 0.2);
   background: rgba(233, 68, 68, 0.05);
 }
-
 /* Why choose us section ends here */
+
+/* Newsletter Section Style starts here */
+.newsletter-container {
+  display: flex;
+  gap: 24px;
+  margin: 100px auto;
+}
+.newsletter {
+  width: 474px;
+  border-radius: 16px;
+  border: 1px solid #ff5400;
+
+  padding: 40px;
+}
+.newsletter input {
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+  color: rgba(19, 19, 24, 0.3);
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 16px;
+  height: 52px;
+  padding-left: 20px;
+  border-style: none;
+}
+.newsletter .btn-primary,
+input {
+  width: 100%;
+}
+.newsletter hr {
+  margin: 24px auto;
+}
+.newsletter .sub-title {
+  margin: 0px auto;
+}
+.img-newsletter {
+  position: relative;
+  width: 672px;
+}
+.img-newsletter img {
+  width: 100%;
+}
+.discount {
+  position: absolute;
+  border-radius: 16px;
+  background: #ff5400;
+  width: 324px;
+  height: 120px;
+  transform: translate(-95%, -100%) rotate(-19.628deg);
+  top: 98%;
+  left: 100%;
+  transform-origin: bottom left;
+  text-align: center;
+  margin: 10px auto;
+}
+.discount-sub-txt {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+}
+.discount-txt {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 800;
+}
+/* Newsletter Section Style ends here */
 
 /* Footer Section Style starts here */
 footer {
