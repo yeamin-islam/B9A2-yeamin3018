@@ -190,6 +190,34 @@ select {
 }
 /* Popular Tours Section ends here */
 
+/* Choose Your Destination Section starts here */
+.destination-container {
+  margin: 100px auto;
+}
+.title-description-container {
+  text-align: center;
+  margin: 24px 20%;
+}
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.img {
+  position: relative;
+  width: fit-content;
+}
+.country-name {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 800;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* Choose Your Destination Section ends here */
+
 /* Footer Section Style starts here */
 footer {
   background-color: rgba(19, 19, 24, 0.05);

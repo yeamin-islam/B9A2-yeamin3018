@@ -78,6 +78,19 @@
   }
   /* Our Popular section style ends here */
 
+  /* Choose Your Destination Section starts here */
+  .grid-container {
+    flex-direction: column;
+  }
+  .img {
+    position: relative;
+    width: 100%;
+  }
+  .img img {
+    width: 100%;
+  }
+  /* Choose Your Destination Section ends here */
+
   /* Footer style section starts here */
   footer {
     background-color: rgba(19, 19, 24, 0.05);
