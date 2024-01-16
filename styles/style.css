@@ -259,6 +259,22 @@ select {
 }
 /* Why choose us section ends here */
 
+/* Travel Bug Blog Section starts Here */
+.our-travel-blog {
+  margin-top: 100px;
+}
+.blog-card {
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 10px 5px 5px rgba(63, 63, 63, 0.281);
+}
+/* Travel Bug Blog Section ends Here */
+.blog-card-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
 /* Newsletter Section Style starts here */
 .newsletter-container {
   display: flex;

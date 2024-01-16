@@ -105,6 +105,12 @@
   }
   /* Why Choose us Section ends here */
 
+  /* Travel Bug Blog Section starts Here */
+  .blog-card-container {
+    flex-direction: column;
+  }
+  /* Travel Bug Blog Section ends Here */
+
   /* Newsletter section starts here */
   .newsletter-container {
     flex-direction: column;
