@@ -114,6 +114,13 @@ nav ul {
   height: 52px;
   position: relative;
 }
+.fa-solid {
+  margin-right: 10px;
+}
+.btn-dropbox {
+  width: 100%;
+  height: 100%;
+}
 .fa-angle-down {
   position: absolute;
   color: black;
@@ -124,17 +131,15 @@ nav ul {
 header .btn-primary {
   font-size: 16px;
 }
-.btn-primary {
-  border-radius: 8px;
+button {
   background: #ff5400;
   border-style: none;
   color: #fff;
-  padding: 1rem 2rem;
-  height: 52px;
-  width: 197px;
   text-align: center;
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 800;
+  border-radius: 8px;
+  padding: 1rem 1.5rem;
 }
 
 fa-magnifying-glass {
@@ -237,7 +242,7 @@ select {
   color: #131318;
   font-size: 24px;
   font-weight: 800;
-  margin: 32px auto;
+  margin: 16px auto;
 }
 .card {
   padding: 32px;
@@ -257,6 +262,78 @@ select {
   background: rgba(233, 68, 68, 0.05);
 }
 /* Why choose us section ends here */
+
+/* Deals & Discounts Section starts here */
+.booking-container-right {
+  position: absolute;
+  width: 579px;
+  height: 389px;
+  border-radius: 16px;
+  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(2.5px);
+  top: 50px;
+  padding: 50px;
+  right: 50px;
+}
+.booking-container-left {
+  position: absolute;
+  width: 579px;
+  height: 389px;
+  border-radius: 16px;
+  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(2.5px);
+  top: 50px;
+  padding: 50px;
+  left: 50px;
+}
+
+.nav-couple-container {
+  display: flex;
+  gap: 24px;
+}
+.red-icon-container,
+.tour-nav {
+  display: flex;
+}
+
+.tour-package {
+  margin-bottom: 24px;
+}
+.tour-nav {
+  justify-content: flex-start;
+  gap: 24px;
+  margin-bottom: 26px;
+}
+.red-icon-container {
+  align-items: center;
+  gap: 8px;
+}
+
+.tour-package {
+  position: relative;
+  width: 100%;
+}
+.tour-package img {
+  width: 100%;
+}
+
+.red-icon {
+  height: 24px;
+  width: 24px;
+}
+.price {
+  color: #ff5400;
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 16px;
+}
+.btn-middle {
+  display: flex;
+  justify-content: center;
+}
+/* Deals & Discounts Section ends here */
 
 /* A Simple Perfect Place To Get Lost Section starts Here */
 .perfect-place-container {
