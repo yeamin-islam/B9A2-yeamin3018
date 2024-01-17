@@ -128,7 +128,8 @@ nav ul {
   right: 20px;
   transform: translate(-50%, -50%);
 }
-header .btn-primary {
+header .btn-primary,
+.btn-dropbox {
   font-size: 16px;
 }
 button {
@@ -354,8 +355,6 @@ select {
   width: 50%;
   position: relative;
   width: 100%;
-  padding-bottom: 56.25%;
-  height: 0;
 }
 .video-container iframe {
   position: absolute;
