@@ -126,9 +126,14 @@
   .btn-middle {
     display: none;
   }
+  .tour-package {
+    background-image: url(../Images/satorini-1.png);
+    min-height: 600px;
+  }
   .tour-package .scene {
     width: 100%;
     height: 500px;
+    display: none;
   }
   .tour-nav {
     flex-direction: column;
