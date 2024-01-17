@@ -56,6 +56,10 @@
     font-size: 22px;
     font-weight: 800;
   }
+  .btn-dropbox {
+    font-size: 16px;
+    font-weight: 700;
+  }
   .banner-description {
     color: #fff;
     text-align: center;
@@ -126,6 +130,7 @@
   .btn-middle {
     display: none;
   }
+
   .tour-package {
     background-image: url(../Images/satorini-1.png);
     min-height: 600px;
@@ -143,7 +148,7 @@
   }
 
   button {
-    font-size: 20px;
+    font-size: 18px;
     padding: 9px 20px;
     font-weight: 700;
   }
